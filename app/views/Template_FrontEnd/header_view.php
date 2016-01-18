@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
     <head>
     <title>Home</title>
     <meta charset="utf-8">
@@ -16,25 +16,15 @@
             <script src="<?php echo SITE_FRONT_ASSETS_DISTJS; ?>/jquery.mobilemenu.js"></script>
             <script src="<?php echo SITE_FRONT_ASSETS_DISTJS; ?>/tmStickUp.js"></script>
             <script src="<?php echo SITE_FRONT_ASSETS_DISTJS; ?>/jquery.ui.totop.js"></script>
-            
-            
+            <script src="<?php echo SITE_FRONT_ASSETS_DISTJS; ?>/TMForm.js"></script>
+            <script src="<?php echo SITE_FRONT_ASSETS_DISTJS; ?>/modal.js"></script>
+
             <script>
                 $(window).load(function () {
                     $().UItoTop({easingType: 'easeOutQuart'});
                     $('#stuck_container').tmStickUp({});
                 });
             </script>
-            <!--[if lt IE 8]>
-             <div style=' clear: both; text-align:center; position: relative;'>
-               <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-                 <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-               </a>
-            </div>
-            <![endif]-->
-            <!--[if lt IE 9]>
-            <script src="js/html5shiv.js"></script>
-            <link rel="stylesheet" media="screen" href="css/ie.css">
-            <![endif]-->
             </head>
             <body class="page1" id="top">
                 <!--==============================
@@ -45,7 +35,7 @@
                         <div class="row">
                             <div class="grid_12 rel">
                                 <h1>
-                                    <a href="index.html">
+                                    <a href="<?php echo SITE_URL; ?>">
                                         <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/logo.png" alt="Logo alt">
                                     </a>
                                 </h1>
@@ -62,11 +52,11 @@
                                     <div class="navigation ">
                                         <nav>
                                             <ul class="sf-menu">
-                                                <li class="current"><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="contacts.html">Contacts</a></li>
+                                                <li class="current"><a href="<?php echo SITE_URL; ?>">Anasayfa</a></li>
+                                                <li><a href="<?php echo SITE_URL . "/Home/hakkimizda"; ?>">Hakkımızda</a></li>
+                                                <li><a href="<?php echo SITE_URL . "/Home/servislerimiz"; ?>">Servislerimiz</a></li>
+                                                <li><a href="<?php echo SITE_URL; ?>">Blog</a></li>
+                                                <li><a href="<?php echo SITE_URL . "/Home/iletisim"; ?>">İletişim</a></li>
                                             </ul>
                                         </nav>
                                         <div class="clear"></div>
