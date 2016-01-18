@@ -15,31 +15,25 @@ class Home extends Controller {
         $this->load->view("Template_FrontEnd/header");
         $this->load->view("Template_FrontEnd/home");
         $this->load->view("Template_FrontEnd/footer");
+    }
 
-    }
-     public function  hakkimizda(){
-         $this->load->view("Template_FrontEnd/header");
-          $this->load->view("Template_FrontEnd/hakkimizda");
+    public function cozumler() {
+        $this->load->view("Template_FrontEnd/header");
+        $this->load->view("Template_FrontEnd/cozumler");
         $this->load->view("Template_FrontEnd/footer");
-        
-        
     }
-    public function  iletisim(){
-         $this->load->view("Template_FrontEnd/header");
-          $this->load->view("Template_FrontEnd/iletisim");
-        $this->load->view("Template_FrontEnd/footer");
-        
-    }
-    
-     public function  hizmetlerimiz(){
-         $this->load->view("Template_FrontEnd/header");
-          $this->load->view("Template_FrontEnd/hizmetlerimiz");
-        $this->load->view("Template_FrontEnd/footer");
-        
-    }
-    
 
-    
+    public function referanslar() {
+        $this->load->view("Template_FrontEnd/header");
+        $this->load->view("Template_FrontEnd/referanslar");
+        $this->load->view("Template_FrontEnd/footer");
+    }
+
+    public function iletisim() {
+        $this->load->view("Template_FrontEnd/header");
+        $this->load->view("Template_FrontEnd/iletisim");
+        $this->load->view("Template_FrontEnd/footer");
+    }
 }
 ?>
 
