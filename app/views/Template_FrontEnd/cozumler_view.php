@@ -46,14 +46,14 @@
         <div class="grid_4">
           <h3>How We Work</h3>
           <div class="block-2">
-            <img src="images/page3_img1.jpg" alt="" class="img_inner fleft">
+              <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page3_img1.jpg" alt="" class="img_inner fleft">
             <div class="extra_wrapper">
               <div class="text1"><a href="#">Aliquam nibh ante</a></div>
               Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert varius augue eu consectetur ligulaam dui
             </div>
           </div>
           <div class="block-2 offset__1">
-            <img src="images/page3_img2.jpg" alt="" class="img_inner fleft">
+            <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page3_img2.jpg" alt="" class="img_inner fleft">
             <div class="extra_wrapper">
               <div class="text1"><a href="#">Olquam nibh ante</a></div>
               Trabitur vel lorem sit amet nulla ullamcorper fermentum In vitae varius augue, eu consectetur ligulaam dui eroserty.
@@ -80,7 +80,7 @@
         <h3>Methods</h3>
       </div>
       <div class="grid_4">
-        <img src="images/page3_img3.jpg" alt="" class="img_inner fleft">
+        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page3_img3.jpg" alt="" class="img_inner fleft">
         <div class="extra_wrapper">
           <p class="fwn"><a href="#">Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae </a></p>
           <p class="offset__1">Eligulaam dui eros rtolisce dertolo adipiscing quam id </p>
@@ -88,7 +88,7 @@
           Curabitur vel lorem sit amet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur larem dui eros 
       </div>
       <div class="grid_4">
-        <img src="images/page3_img4.jpg" alt="" class="img_inner fleft">
+        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page3_img4.jpg" alt="" class="img_inner fleft">
         <div class="extra_wrapper">
           <p class="fwn"><a href="#">Lurabitur vel lorem sit amet nulla ullamcorper fermentum In vitae </a></p>
           <p class="offset__1">Eligulaam dui eros rtolisce dertolo adipiscing ua i isus </p>
@@ -96,7 +96,7 @@
           Kurabitur vel lorem sit amet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur larem dui eros 
       </div>
       <div class="grid_4">
-        <img src="images/page3_img5.jpg" alt="" class="img_inner fleft">
+        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page3_img5.jpg" alt="" class="img_inner fleft">
         <div class="extra_wrapper">
           <p class="fwn"><a href="#">Ourabitur vel lorem sit amet nulla ullamcorper fermentum In vitae </a></p>
           <p class="offset__1">Eligulaam dui eros rtolisce dertolo adipiscing quam </p>

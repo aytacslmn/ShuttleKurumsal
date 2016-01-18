@@ -53,9 +53,8 @@
                                         <nav>
                                             <ul class="sf-menu">
                                                 <li class="current"><a href="<?php echo SITE_URL; ?>">Anasayfa</a></li>
-                                                <li><a href="<?php echo SITE_URL . "/Home/hakkimizda"; ?>">Hakkımızda</a></li>
-                                                <li><a href="<?php echo SITE_URL . "/Home/servislerimiz"; ?>">Servislerimiz</a></li>
-                                                <li><a href="<?php echo SITE_URL; ?>">Blog</a></li>
+                                                <li><a href="<?php echo SITE_URL . "/Home/cozumler"; ?>">Çözümler</a></li>
+                                                <li><a href="<?php echo SITE_URL . "/Home/referanslar"; ?>">Referanslar</a></li>
                                                 <li><a href="<?php echo SITE_URL . "/Home/iletisim"; ?>">İletişim</a></li>
                                             </ul>
                                         </nav>
@@ -66,3 +65,4 @@
                             </div> 
                         </div> 
                     </section>
+                    
