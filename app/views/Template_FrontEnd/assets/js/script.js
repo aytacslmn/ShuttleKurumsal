@@ -56,9 +56,9 @@ var currentYear = (new Date).getFullYear();
 // DEVICE.JS AND SMOOTH SCROLLIG
 
 function include(url){document.write('<script type="text/javascript" src="'+url+'"></script>')}
-include('js/device.js');
-include('js/jquery.mousewheel.js');
-include('js/jquery.simplr.smoothscroll.js');
+include('http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/js/device.js');
+include('http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/js/jquery.mousewheel.js');
+include('http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/js/jquery.simplr.smoothscroll.js');
 
   $(function () { 
     if ($('html').hasClass('desktop')) {
