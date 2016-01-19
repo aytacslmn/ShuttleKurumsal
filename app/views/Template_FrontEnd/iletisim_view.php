@@ -6,21 +6,22 @@
     <div class="container">
         <div class="row">
             <div class="grid_12">
-                <h3>Contacts</h3>
+                <h3></h3>
                 <div class="map">
                     <figure class="">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
                     </figure>
                 </div>
             </div>
+            
             <div class="grid_5">
-                <h3 class="head__1">Address:</h3>
+                <h3 class="head__1">Adres:</h3>
                 <address class="text3">
                     138 Atlantis Ln <br>Kingsport <br>Illinois121164
                 </address>
             </div>
             <div class="grid_4">
-                <h3 class="head__1">Phone:</h3>
+                <h3 class="head__1">Telefon:</h3>
                 <div class="text3">
                     +1 800 559 6580 <br>+1 504 889 9898
                 </div>
@@ -31,12 +32,10 @@
                     <a href="#">mail@demolink.org</a><br><a href="#">Download</a>
                 </div>
             </div>
-            <div class="grid_12">
-                <h3 class="head__1">Miscellaneous information:</h3>
+            <div class="grid_12" style="text-align:center">
+                <h3 class="head__1">Bize Ulaşın</h3>
                 <div class="fwn">
-                    <p>24/7 support is available for all <a href="http://www.templatemonster.com/" rel="nofollow" class="color1">premium themes</a>.</p>
-                    <p>If you have problems with customization of freebies, ask guys from <a href="http://www.templatetuning.com/" rel="nofollow" class="color1">TemplateTuning</a> to help you.</p>
-                    Aliquam nibh ante, egestas id dictum a, commodo luctus liberoret. Praesenter faucibus malesuada faucibus. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed nulla facilisis consequa. 
+                    <h5>Sorularınızı ve isteklerinizi bize yazın</h5>
                 </div>
                 <form id="contact-form">
                     <div class="contact-form-loader"></div>
@@ -63,7 +62,7 @@
                         </label>
                         <div class="clear"></div>
                         <div>
-                            <a href="#" class="btn" data-type="submit">Send e-mail</a>
+                            <a href="#" class="btn" data-type="submit">GÖNDER</a>
                         </div>
                     </fieldset> 
                     <div class="modal fade response-message">

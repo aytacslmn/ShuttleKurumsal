@@ -386,7 +386,7 @@ a:hover {
 }
 /*header*/
 header {
-  color: #e6e5e5;
+  color: #000;
   display: block;
   position: relative;
   z-index: 999;
