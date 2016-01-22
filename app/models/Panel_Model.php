@@ -25,75 +25,11 @@ class Panel_Model extends Model {
 
     //login select formu
     public function loginselect($email, $sifre) {
-        $sql = "SELECT fwkullaniciID,fwkullaniciAd,fwkullaniciEmail FROM fwkullanicilar WHERE fwkullaniciEmail='$email' AND fwkullaniciSifre='$sifre'";
+        $sql = "SELECT ad,cinsiyet,eposta,sifre,profil_resmi FROM uyeler WHERE eposta='$email' AND sifre='$sifre'";
         return $this->db->select($sql);
     }
 
-    //login select formu
-    public function profilselect($id) {
-        $sql = "SELECT fwkullaniciAd,fwkullaniciAdres,fwkullaniciSehir,fwkullaniciCinsiyet,fwkullaniciEmail FROM fwkullanicilar WHERE fwkullaniciID=$id";
-        return $this->db->select($sql);
-    }
 
-    //kategori select formu
-    public function kategoriselect() {
-        $sql = "SELECT ID,ad,icerik FROM kategori";
-        return $this->db->select($sql);
-    }
-      public function kategoriAnasayfa() {
-        $sql = "SELECT ID,ad,anasayfa_durum FROM kategori where anasayfa_durum=1 ";
-        return $this->db->select($sql);
-    }
-
-    public function profilupdate($data, $gelenid) {
-        return ($this->db->update("fwkullanicilar", $data, "fwkullaniciID=$gelenid"));
-    }
-
-    public function profildelete($gelenid) {
-        return ($this->db->delete("fwkullanicilar", "fwkullaniciID=$gelenid"));
-    }
-
-    public function logininsert($data) {
-        return ($this->db->insert("fwkullanicilar", $data));
-    }
-
-    public function kategoriinsert($data) {
-        return ($this->db->insert("kategori", $data));
-    }
-    public function uruninsert($dataurun) {
-        return ($this->db->insert("urunler", $dataurun));
-    }
-
-    //kategori select formu
-    public function urunselect() {
-        $sql = "SELECT urun_id,urun_resim,urun_aciklama,urun_fiyat,urun_kategori,urun_tarih FROM urunler";
-        return $this->db->select($sql);
-    }
-    
-    public function urunAnasayfa() {
-        $sql = "SELECT urun_id,urun_resim,urun_aciklama,urun_fiyat,urun_kategori FROM urunler order by urun_id desc limit 0,6";
-        return $this->db->select($sql);
-    }
-
-    public function kategoriupdate($dataKategori, $gelenid) {
-        return ($this->db->update("kategori", $dataKategori, "ID=$gelenid"));
-    }
-
-    public function urunupdate($dataUrun, $gelenid) {
-        return ($this->db->update("urunler", $dataUrun, "urun_id=$gelenid"));
-    }
-    public function urundelete($gelenid) {
-        return ($this->db->delete("urunler", "urun_id=$gelenid"));
-    }
-    public function kategoridelete($gelenid) {
-        return ($this->db->delete("kategori", "ID=$gelenid"));
-    }
-    
-    //login select formu
-    public function ayarselect($id) {
-        $sql = "SELECT site_baslik,site_aciklama,is_tel,cep_tel,site_mail,adres FROM ayar WHERE id=1";
-        return $this->db->select($sql);
-    }
 
 }
 

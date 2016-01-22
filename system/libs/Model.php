@@ -3,7 +3,7 @@
     class Model{
        protected $db=array();
        public function __construct() {
-            $dsn = 'mysql:dbname=badoframework;host=127.0.0.1';
+            $dsn = 'mysql:dbname=shuttle;host=127.0.0.1';
             $user = 'root';
             $password = '';
             $this->db=new Database($dsn,$user,$password);

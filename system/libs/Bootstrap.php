@@ -54,10 +54,10 @@ class Bootstrap {
                     //sınıf çağırma
                     $this->_controller = new $this->_controllerName();
                 } else {
-                    header("Location:" . SITE_URL_LOGOUT);
+                    header("Location:" . SITE_URL);
                 }
             } else {
-                header("Location:" . SITE_URL_LOGOUT);
+                header("Location:" . SITE_URL);
             }
         }
     }
@@ -71,7 +71,7 @@ class Bootstrap {
                 $this->_controller->{$this->_methodName}($this->_url[2]);
             } else {
                 //echo "Controller içinde method bulunamadı ";
-                header("Location:" . SITE_URL_LOGOUT);
+                header("Location:" . SITE_URL);
             }
         } else {
 
@@ -83,7 +83,7 @@ class Bootstrap {
                     $this->_controller->{$this->_methodName}();
                 } else {
                     //echo "Coontroller içinde bulunmadı";
-                    header("Location:" . SITE_URL_LOGOUT);
+                    header("Location:" . SITE_URL);
                 }
             } else {
                 if (method_exists($this->_controller, $this->_methodName)) {
