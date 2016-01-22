@@ -62,7 +62,7 @@ class Admin extends Controller {
 
             $this->load->view("Template_BackEnd/header");
             $this->load->view("Template_BackEnd/left");
-            $this->load->view("Template_BackEnd/ayarlar");
+            $this->load->view("Template_BackEnd/ayarlar",$ayarliste);
             $this->load->view("Template_BackEnd/footer");
     }
 

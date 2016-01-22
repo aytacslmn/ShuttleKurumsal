@@ -28,9 +28,9 @@ class Login extends Controller {
                             $result = $model->loginselect($loginEmail, md5($loginPassword));
                             if ($result) {
                                 Session::set("login", TRUE);
-                                $ID = $result[0]["fwkullaniciID"];
-                                $kadi = $result[0]["fwkullaniciAd"];
-                                $email = $result[0]["fwkullaniciEmail"];
+                                $ID = $result[0]["id"];
+                                $kadi = $result[0]["ad"];
+                                $email = $result[0]["eposta"];
                                 Session::set("email", $email);
                                 Session::set("kadi", $kadi);
                                 Session::set("ID", $ID);

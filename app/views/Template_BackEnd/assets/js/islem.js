@@ -27,6 +27,36 @@ $(document).on("click", "button#profilDuzenle", function (e) {
 });
 
 
+$(document).on("click", "button#ayarDuzenle", function (e) {
+    var baslik = $("#baslik").val();
+    var aciklama = $("#aciklama").val();
+    var keyw = $("#keyw").val();
+    var is = $("#is").val();
+    var mail = $("#mail").val();
+    var adres = $("#adres").val();
+
+
+    $.ajax({
+        type: "post",
+        url: SITE_URL + "/Admin_Ajax",
+        cache: false,
+        dataType: "json",
+        data: {"baslik": baslik, "aciklama": aciklama,"keyw": keyw, "is": is,  "mail": mail, "adres": adres, "tip": "ayarDuzenle"},
+        success: function (cevap) {
+            if (cevap.hata) {
+                reset();
+                alertify.alert(cevap.hata);
+                return false;
+            } else {
+                reset();
+                alertify.success(cevap.result);
+                return false;
+            }
+        }
+    });
+});
+
+
 $(document).on('click', 'a#usil', function (e) {
     var id = $(this).attr("value");
     reset();

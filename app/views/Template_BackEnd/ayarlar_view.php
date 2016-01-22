@@ -1,4 +1,4 @@
-
+<script src="<?php echo SITE_BACK_ASSETS_JS; ?>/islem.js" type="text/javascript"></script>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -35,13 +35,13 @@
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">Site Anahtar Kelimeler</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control"id="keyw" name="keyw" placeholder="Keywords" value="<?php echo $model[0]["keyw"]; ?>" ></input>
+                                    <input type="text" class="form-control"id="keyw" name="keyw" placeholder="Keywords" value="<?php echo $model[0]["site_keyw"]; ?>" ></input>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">İş Tel</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control"id="cep" name="genelayarceptel" placeholder="İs Telefonu" value="<?php echo $model[0]["cep_tel"]; ?>" ></input>
+                                    <input type="text" class="form-control"id="is" name="genelayarceptel" placeholder="İs Telefonu" value="<?php echo $model[0]["is_tel"]; ?>" ></input>
                                 </div>
                             </div>
                             <div class="form-group">

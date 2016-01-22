@@ -33,6 +33,10 @@ class Panel_Model extends Model {
         $sql = "SELECT site_baslik,site_aciklama,is_tel,site_keyw,site_mail,adres FROM ayarlar WHERE id=1";
         return $this->db->select($sql);
     }
+    
+    public function ayarupdate($dataAyar, $id) {
+        return ($this->db->update("ayarlar", $dataAyar, "id=$id"));
+    }
 
 
 }

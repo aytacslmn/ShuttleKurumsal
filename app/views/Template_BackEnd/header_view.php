@@ -77,7 +77,7 @@
                                                         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
                                                     <![endif]-->
                                                     <script>
-                                                        var SITE_URL = "http://localhost/BadoFramework";
+                                                        var SITE_URL = "http://localhost/ShuttleKurumsal";
                                                         function reset() {
                                                             alertify.set({
                                                                 labels: {
