@@ -1,108 +1,66 @@
-
-<section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - July 28, 2014!</div>
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">
-        <h3>Featured Services</h3>    
-      </div>
-      <div class="grid_2">
-        <div class="text2 color1"><a href="#">Vivamus at magna</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-      <div class="grid_2">
-        <div class="text2 color1"><a href="#">Integer convallis</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-      <div class="grid_2">
-        <div class="text2 color1"><a href="#">Desato limo dew</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-      <div class="grid_2">
-        <div class="text2 color1"><a href="#">Vestibulum volutpa</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-      <div class="grid_2">
-        <div class="text2 color1"><a href="#">Еestibu dertolo</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-      <div class="grid_2">
-        <div class="text2 color1"><a href="#">Nolutpaersa fert</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-    </div>
-  </div>
-  <article class="content_gray offset__2">
+<section id="content">
     <div class="container">
-      <div class="row">
-        <div class="grid_4">
-          <h3>Services List</h3>
-          <ul class="list-1">
-            <li><a href="#">Vivamus at magna non nunc tristique </a></li>
-            <li><a href="#">Aliquam nibh ante, egestas id</a></li>
-            <li><a href="#">Ommodo luctus libero</a></li>
-            <li><a href="#">Faucibus malesuada faucibusonec </a></li>
-            <li><a href="#">Laoreet metus id laoreet</a></li>
-            <li><a href="#">Jalesuadaorem ipsum dolor sit ame</a></li>
-            <li><a href="#">Konsectetur adipiscing elitert</a></li>
-            <li><a href="#">Tliquam nibh ante, egestas idi</a></li>
-            <li><a href="#">Ammodo luctus liberom</a></li>
-            <li><a href="#">Noaucibus malesuada faucibonecy </a></li>
-          </ul>
-        </div>
-        <div class="grid_4">
-          <h3>How We Work</h3>
-          <div class="block-2">
-              <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page3_img1.jpg" alt="" class="img_inner fleft">
-            <div class="extra_wrapper">
-              <div class="text1"><a href="#">Aliquam nibh ante</a></div>
-              Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert varius augue eu consectetur ligulaam dui
-            </div>
-          </div>
-          <div class="block-2 offset__1">
-            <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page3_img2.jpg" alt="" class="img_inner fleft">
-            <div class="extra_wrapper">
-              <div class="text1"><a href="#">Olquam nibh ante</a></div>
-              Trabitur vel lorem sit amet nulla ullamcorper fermentum In vitae varius augue, eu consectetur ligulaam dui eroserty.
-            </div>
-          </div>
-        </div>
-        <div class="grid_3 preffix_1">
-          <h3>Additional Info</h3>
-          <div class="block-2">
-              <div class="text1"><a href="#"> Ipsumen Dertol</a></div>
-              Trabitur vel lorem sit amet nulla corper fermentum In vitae varius augue, eu ctetur ligulaam dui eroserty. Fusce adipiscing quam id risus sagittis, non consequat lacus <br> <a href="#" class="link-1">more</a>
-          </div>
-          <div class="block-2 ">
-              <div class="text1"><a href="#">Setorem Osumen</a></div>
-              Nurabitur vel lorem sit amet nulla corper fermentum In vitae varius augue, eu ctetur ligulaam dui eroserty. Fusce adipiscing quam id risus sagittis, non consequat lacus  <br> <a href="#" class="link-1">more</a> 
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">
-        <h3>Methods</h3>
-      </div>
-      <div class="grid_4">
-        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page3_img3.jpg" alt="" class="img_inner fleft">
-        <div class="extra_wrapper">
-          <p class="fwn"><a href="#">Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae </a></p>
-          <p class="offset__1">Eligulaam dui eros rtolisce dertolo adipiscing quam id </p>
-        </div>
-          Curabitur vel lorem sit amet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur larem dui eros 
-      </div>
-      <div class="grid_4">
-        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page3_img4.jpg" alt="" class="img_inner fleft">
-        <div class="extra_wrapper">
-          <p class="fwn"><a href="#">Lurabitur vel lorem sit amet nulla ullamcorper fermentum In vitae </a></p>
-          <p class="offset__1">Eligulaam dui eros rtolisce dertolo adipiscing ua i isus </p>
-        </div>
-          Kurabitur vel lorem sit amet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur larem dui eros 
-      </div>
-      <div class="grid_4">
-        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page3_img5.jpg" alt="" class="img_inner fleft">
-        <div class="extra_wrapper">
-          <p class="fwn"><a href="#">Ourabitur vel lorem sit amet nulla ullamcorper fermentum In vitae </a></p>
-          <p class="offset__1">Eligulaam dui eros rtolisce dertolo adipiscing quam </p>
-        </div>
-        Turabitur vel lorem sit amet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur larem dui eros 
-      </div>
-    </div>
-  </div>
-</section>
+        <div class="row">
+            <div class="center wow fadeInDown"  style="padding-bottom: 10px; padding-top: 30px">
+                <h2>Çözümlerimiz</h2>
+                <p class="lead">10 yıllık deneyimi ile E-Ticaret Sistemleri , Kurumsal Web Tasarım ve İnternet Proje Danışmanlığı konularında Shuttle yanınızda. Hayallerinizi gerçeğe dönüştürmeniz için yapmanız gereken tek şey bize ulaşmanız. </p>
+            </div><hr>
+
+            <div class="col-lg-12 col-sm-8 wow fadeInDown">
+                <h2>Shuttle Operator</h2> 
+                <div class="tab-wrap"> 
+                    <div class="media">
+                        <div class="parrent pull-left">
+                            <ul class="nav nav-tabs nav-stacked">
+                                <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Shuttle Nedir?</a></li>
+                                <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Tur Başlat</a></li>
+                                <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Öğrenci Takip</a></li>
+                                <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Servis Yönetimi</a></li>
+                                <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">Demo Talebi</a></li>
+                            </ul>
+                        </div>
+                        <div class="parrent media-body">
+                            <div class="tab-content">
+                                <div class="tab-pane fade" id="tab1">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/tab2.png">
+                                        </div>
+                                        <div class="media-body">
+                                            <h2>Adipisicing elit</h2>
+                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade active in" id="tab2">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/tab1.png">
+                                        </div>
+                                        <div class="media-body">
+                                            <h2>Adipisicing elit</h2>
+                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="tab3">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                                </div>
+
+                                <div class="tab-pane fade" id="tab4">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
+                                </div>
+
+                                <div class="tab-pane fade" id="tab5">
+                                   <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>                      
+                                </div>
+                            </div> <!--/.tab-content-->  
+                        </div> <!--/.media-body--> 
+                    </div> <!--/.media-->     
+                </div><!--/.tab-wrap--> <hr>             
+            </div><!--/.col-sm-6-->
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#content-->

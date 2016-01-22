@@ -1,138 +1,349 @@
-<section class="page1_header">
-    <div class="container">
-        <div class="row">
-            <div class="grid_4">
-                <a href="#" class="banner "><div class="maxheight">
-                        <div class="fa fa-globe"></div>Planlama</div>
-                </a>
-                <a href="#" class="banner "><div class="maxheight">
-                        <div class="fa fa-lightbulb-o"></div>Analiz</div>
-                </a>
-                <a href="#" class="banner "><div class="maxheight1">
-                        <div class="fa fa-cog"></div>Çözüm</div>
-                </a>
-                <a href="#" class="banner "><div class="maxheight1">
-                        <div class="fa fa-briefcase"></div>Başarı</div>
-                </a>
-            </div>
-            <div class="grid_5">
-                <h2>Strong <br> Stable <br> Safe</h2>
-                We help you run your business  in a successful way
-            </div>
-        </div>
-    </div>
-</section>
-</header>
-<div class="block-1">
-    <div class="container">
-        <div class="row">
-            <div class="grid_3">
-                <div class="block-1_count">10</div>
-                Years of <br> Experience
-                <div class="clear"></div>
-            </div>
-            <div class="grid_3">
-                <div class="block-1_count">30</div>
-                Successful <br> Projects
-                <div class="clear"></div>
-            </div>
-            <div class="grid_3">
-                <div class="block-1_count">20</div>
-                Partner <br> Projects
-                <div class="clear"></div>
-            </div>
-            <div class="grid_3">
-                <a href="#" class="support"><img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/support.png" alt=""></a>
-            </div>
-        </div>
-    </div>
-</div>
-<!--=====================
-          Content
-======================-->
-<section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - July 28, 2014!</div>
-    <div class="container">
-        <div class="row">
-            <div class="grid_10 preffix_1 ta__center">
-                <div class="greet">
-                    <h2 class="head__1">
-                        Shuttle
-                    </h2>
-                    <p>Read more about the <a href=" http://blog.templatemonster.com/free-website-templates/" rel="nofollow" class="color1">freebie</a> here. <br> Go to TemplateMonster.com and find more <a href="http://www.templatemonster.com/properties/topic/business-services/" rel="nofollow" class="color1">goodies</a> of this kind </p>
-                    Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet site amet est vel, commodo venenatis eros. Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. nulla, eu sodales arcu. Quisque viverra nulla nunc, eu ultrices libero ultricies eget. Phasellus accumsan 
-                </div>
-            </div>
-        </div>
-    </div>
-    <article class="content_gray">
-        <div class="container">
-            <div class="row">
-                <div class="grid_7">
-                    <h3>Our Advantages</h3>
-                    <div class="block-2">
-                        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page1_img1.jpg" alt="" class="img_inner fleft">
-                            <div class="extra_wrapper">
-                                <div class="text1"><a href="#">Experience</a></div>
-                                <p>Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert varius augue, eu consectetur ligulaam dui eros dertoli.</p>Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. Proin ut tinciduntol nulla, eu sodales vertomin
-                                <br>
-                                <a href="#" class="link-1">more</a>
+<section id="main-slider" class="no-margin">
+    <div class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#main-slider" data-slide-to="1"></li>
+            <li data-target="#main-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+            <div class="item active" style="background-image: url(<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/slider/bg1.jpg)">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content">
+                                <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+                                <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>
                             </div>
-                    </div>
-                    <div class="block-2">
-                        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page1_img2.jpg" alt="" class="img_inner fleft">
-                            <div class="extra_wrapper">
-                                <div class="text1"><a href="#">Marketing</a></div>
-                                <p>Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert varius augue, eu consectetur ligulaam dui eros dertoli.</p>Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. Proin ut tinciduntol nulla, eu sodales vertomin
-                                <br>
-                                <a href="#" class="link-1">more</a>
+                        </div>
+
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <div class="slider-img">
+                                <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/slider/img1.png" class="img-responsive">
                             </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="grid_4 preffix_1">
-                    <h3>Testimonials</h3>
-                    <blockquote class="bq1">
-                        <p>“Curabitur vel lorem sit amet nulla erero fermentum. In vitae varius auguectetu ligula. Etiam dui eros, laoreet site am est vel commodo venenatisipiscing... ”</p>
-                        <span>Liza Jons</span>
-                    </blockquote>
-                    <blockquote class="bq1">
-                        <p>“Burabitur vel lorem sit amet nulla erero fermentum. In vitae varius auguectetu ligula. Etiam dui eros, laoreet site am ast vel commodo venenatisipiscino... ”</p>
-                        <span>Mark Brown</span>
-                    </blockquote>
+            </div><!--/.item-->
+
+            <div class="item" style="background-image: url(<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/slider/bg2.jpg)">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content">
+                                <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+                                <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <div class="slider-img">
+                                <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/slider/img2.png" class="img-responsive">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!--/.item-->
+
+            <div class="item" style="background-image: url(<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/slider/bg3.jpg)">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content">
+                                <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+                                <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <div class="slider-img">
+                                <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/slider/img3.png" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.carousel-inner-->
+    </div><!--/.carousel-->
+    <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+    </a>
+    <a class="next hidden-xs" href="#main-slider" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+    </a>
+</section><!--/#main-slider-->
+
+<section id="feature" >
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>Biz</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+
+        <div class="row">
+            <div class="features">
+                <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <i class="fa fa-bullhorn"></i>
+                        <h2>Mükemmel Hizmet</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <i class="fa fa-comments"></i>
+                        <h2>Kusursuz İş</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <i class="fa fa-cloud-download"></i>
+                        <h2>Easy to customize</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <i class="fa fa-leaf"></i>
+                        <h2>Adipisicing elit</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <i class="fa fa-cogs"></i>
+                        <h2>Sed do eiusmod</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <i class="fa fa-heart"></i>
+                        <h2>Labore et dolore</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div><!--/.col-md-4-->
+            </div><!--/.services-->
+        </div><!--/.row-->    
+    </div><!--/.container-->
+</section><!--/#feature-->
+
+<section id="services" class="service-item">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>HİZMETLERİMİZ</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="media services-wrap wow fadeInDown">
+                    <div class="pull-left">
+                        <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services1.png">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">WEB Uygulamaları</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="media services-wrap wow fadeInDown">
+                    <div class="pull-left">
+                        <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services2.png">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">Mobil Uygulamalar</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="media services-wrap wow fadeInDown">
+                    <div class="pull-left">
+                        <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services3.png">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">Kurumsal Web</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="col-sm-6 col-md-4">
+                <div class="media services-wrap wow fadeInDown">
+                    <div class="pull-left">
+                        <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services4.png">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">Danışmanlık</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="media services-wrap wow fadeInDown">
+                    <div class="pull-left">
+                        <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services5.png">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">SEO Marketing</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="media services-wrap wow fadeInDown">
+                    <div class="pull-left">
+                        <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services6.png">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">SEO Marketing</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>                                                
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#services-->
+
+<section id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 wow fadeInDown">
+                <div class="tab-wrap"> 
+                    <div class="media">
+                        <div class="parrent pull-left">
+                            <ul class="nav nav-tabs nav-stacked">
+                                <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Responsive Web Design</a></li>
+                                <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Premium Plugin Included</a></li>
+                                <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Predefine Layout</a></li>
+                                <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Our Philosopy</a></li>
+                                <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">What We Do?</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="parrent media-body">
+                            <div class="tab-content">
+                                <div class="tab-pane fade" id="tab1">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/tab2.png">
+                                        </div>
+                                        <div class="media-body">
+                                            <h2>Adipisicing elit</h2>
+                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade active in" id="tab2">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/tab1.png">
+                                        </div>
+                                        <div class="media-body">
+                                            <h2>Adipisicing elit</h2>
+                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="tab3">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                                </div>
+
+                                <div class="tab-pane fade" id="tab4">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
+                                </div>
+
+                                <div class="tab-pane fade" id="tab5">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
+                                </div>
+                            </div> <!--/.tab-content-->  
+                        </div> <!--/.media-body--> 
+                    </div> <!--/.media-->     
+                </div><!--/.tab-wrap-->               
+            </div><!--/.col-sm-6-->
+
+            <div class="col-xs-12 col-sm-4 wow fadeInDown">
+                <div class="testimonial">
+                    <h2>Testimonials</h2>
+                    <div class="media testimonial-inner">
+                        <div class="pull-left">
+                            <img class="img-responsive img-circle" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/testimonials1.png">
+                        </div>
+                        <div class="media-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                            <span><strong>-John Doe/</strong> Director of corlate.com</span>
+                        </div>
+                    </div>
+
+                    <div class="media testimonial-inner">
+                        <div class="pull-left">
+                            <img class="img-responsive img-circle" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/testimonials1.png">
+                        </div>
+                        <div class="media-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                            <span><strong>-John Doe/</strong> Director of corlate.com</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#content-->
+
+<section id="partner">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>Our Partners</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>    
+
+        <div class="partners">
+            <ul>
+                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/partners/partner1.png"></a></li>
+                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/partners/partner2.png"></a></li>
+                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/partners/partner3.png"></a></li>
+                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/partners/partner4.png"></a></li>
+                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/partners/partner5.png"></a></li>
+            </ul>
+        </div>        
+    </div><!--/.container-->
+</section><!--/#partner-->
+
+<section id="conatcat-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="pull-left">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2>Have a question or need a custom quote?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </article>
-    <div class="container">
-        <div class="row">
-            <div class="grid_5">
-                <h4>About Company</h4>
-                <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page1_img3.jpg" alt="" class="img_inner fleft">
-                    <p>Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert arius augue, eu consectetur </p>
-                    <p class="offset__1">Eligulaam dui eros dertolisce dertolo adipiscing quam id risus sagittis</p>
-                    Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert rius augue, eu consectetur larem dui eros dertolisce dertolo 
-            </div>
-            <div class="grid_4">
-                <h4>Solutions</h4>
-                <ul class="list-1">
-                    <li><a href="#">Vivamus at magna non nunc tristique </a></li>
-                    <li><a href="#">Aliquam nibh ante, egestas id</a></li>
-                    <li><a href="#">Ommodo luctus libero</a></li>
-                    <li><a href="#">Faucibus malesuada faucibusonec </a></li>
-                    <li><a href="#">Laoreet metus id laoreet</a></li>
-                    <li><a href="#">Jalesuadaorem ipsum dolor sit ame</a></li>
-                </ul>
-            </div>
-            <div class="grid_3">
-                <h4>Contact Info</h4>
-                <address>
-                    <ul class="cont_address">
-                        <li>8901 Marmora Road, Glasgow, D04 89GR</li>
-                        <li>+1 (800) 123 9876</li>
-                        <li><a href="#">info@demolink.org</a></li>
-                        <li><a href="#">www.demolink.org</a></li>
-                    </ul>
-                </address>
-            </div>
-        </div>
-    </div>
-</section>
+    </div><!--/.container-->    
+</section><!--/#conatcat-info-->

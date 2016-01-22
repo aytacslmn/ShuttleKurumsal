@@ -1,82 +1,122 @@
+ <section id="portfolio">
+        <div class="container">
+            <div class="center">
+               <h2>Portfolio</h2>
+               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <ul class="portfolio-filter text-center">
+                <li><a class="btn btn-default active" href="#" data-filter="*">TÜMÜ</a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".bootstrap">SYS</a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".html">E-TİCARET</a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".wordpress">WEB-MOBİL</a></li>
+            </ul><!--/#portfolio-filter-->
+            
+            <div class="row">
+                <div class="portfolio-items">
+                    <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/recent/item1.png" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h3><a href="#">Business theme</a></h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
 
-<section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - July 28, 2014!</div>
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">
-        <h3>About Us</h3>
-        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page2_img.jpg" alt="" class="img_inner fleft">
-        <div class="extra_wrapper">
-          <p class="fwn"><a href="#">Livamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a, commodo luctus liberoret. Praesenter faucibus malesuada faucibus. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed nulla facilisis consequa. </a></p>
-          Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet site amet est vel, commodo venenatis eros. Fusce adipiscing quam id risus sagittis, non consequat lacus interdumertolo mokiju werto nulla, eu sodales arcu. Quisque viverra nulla nunc, eu ultrices libero ultricies eget. Phasellus accumsan justo vitae feugiat placerat. Praesent vel ultrices velit. Suspendisse risus justo, lacinia vitae eleifend sed, cursus sit amet. Huisque viverra nulla nunc, eu ultrices libero ultricies eget. Ohasellus accumsajusto vitae feugiat placerat. Praesent vel ultrices velit. Suspendisse risus justo, lacinia vitae eleifend sed, cursus sit amet ertolomino kolinomi holo. 
-        </div>
-      </div>
-    </div>
-  </div>
-  <article class="content_gray offset__1">
-    <div class="container">
-      <div class="row">
-        <div class="grid_12">
-          <h3>What We Offer</h3>
-        </div>
-        <div class="grid_4">
-          <div class="block-3">
-            <div class="count">1</div>
-            <div class="extra_wrapper">
-              <div class="text1"><a href="#">Lorem Ipsumen</a></div>
-              Curabitur vel lorem sit amet nulla corper fermentum In vitae varius augue, eu ctetur ligulaam dui eroserty. Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. Proin ut tinciduntol nulla eu 
+                    <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/recent/item2.png" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h3><a href="#">Business theme</a></h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                </div> 
+                            </div>
+                        </div>          
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/recent/item3.png" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h3><a href="#">Business theme</a></h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                </div> 
+                            </div>
+                        </div>        
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/recent/item4.png" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h3><a href="#">Business theme</a></h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                </div> 
+                            </div>
+                        </div>           
+                    </div><!--/.portfolio-item-->
+          
+                    <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/recent/item5.png" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h3><a href="#">Business theme</a></h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                </div> 
+                            </div>
+                        </div>      
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/recent/item6.png" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h3><a href="#">Business theme</a></h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                </div> 
+                            </div>
+                        </div>         
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/recent/item7.png" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h3><a href="#">Business theme</a></h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                </div> 
+                            </div>
+                        </div>          
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/recent/item8.png" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h3><a href="#">Business theme</a></h3>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <a class="preview" href="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                </div> 
+                            </div>
+                        </div>          
+                    </div><!--/.portfolio-item-->
+                </div>
             </div>
-          </div>
         </div>
-        <div class="grid_4">
-          <div class="block-3">
-            <div class="count">2</div>
-            <div class="extra_wrapper">
-              <div class="text1"><a href="#"> Ipsumen Dertol</a></div>
-              Trabitur vel lorem sit amet nulla corper fermentum In vitae varius augue, eu ctetur ligulaam dui eroserty. Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. Proin ut tinciduntol nulla  
-            </div>
-          </div>
-        </div>
-        <div class="grid_4">
-          <div class="block-3">
-            <div class="count">3</div>
-            <div class="extra_wrapper">
-              <div class="text1"><a href="#">Setorem Osumen</a></div>
-              Nurabitur vel lorem sit amet nulla corper fermentum In vitae varius augue, eu ctetur ligulaam dui eroserty. Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. Proin ut tincidunta eu sodales 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">
-        <h3>Our Staff</h3>
-      </div>
-      <div class="grid_2">
-        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page2_img1.jpg" alt="" class="bord_img">
-        <div class="text2"><a href="#">Sharon Brown</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-      <div class="grid_2">
-        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page2_img2.jpg" alt="" class="bord_img">
-        <div class="text2"><a href="#">Mark Carter</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-      <div class="grid_2">
-        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page2_img3.jpg" alt="" class="bord_img">
-        <div class="text2"><a href="#">Sandra Smith</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-      <div class="grid_2">
-        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page2_img4.jpg" alt="" class="bord_img">
-        <div class="text2"><a href="#">Tim Jons</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-      <div class="grid_2">
-        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page2_img5.jpg" alt="" class="bord_img">
-        <div class="text2"><a href="#">Richard Wright</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-      <div class="grid_2">
-        <img src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/page2_img6.jpg" alt="" class="bord_img">
-        <div class="text2"><a href="#">Kevin Steawart</a></div>Curabitur vel lorem sitmet nulla ullamcorper mentum In vitae dert rius augue, eu consectetur ligulaam dui eros dertolisce dertoloing quam id risus sagittis
-      </div>
-    </div>
-  </div>
-</section>
+    </section><!--/#portfolio-item-->

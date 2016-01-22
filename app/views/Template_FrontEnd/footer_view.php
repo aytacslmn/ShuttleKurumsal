@@ -1,14 +1,20 @@
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-       
-        <div class="copyright"><span class="brand">Stable</span> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a>
-          <div class="sub-copy">Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="<?php echo SITE_URL; ?>">Anasayfa</a></li>
+                        <li><a href="<?php echo SITE_URL; ?>/home/cozumler">Çözümler</a></li>
+                        <li><a href="<?php echo SITE_URL; ?>/home/referanslar">Referanslar</a></li>
+                        <li><a href="<?php echo SITE_URL; ?>/home/iletisim">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      
-    </div>
-  </div>  
-</footer>
-<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+    </footer><!--/#footer-->
 </body>
 </html>

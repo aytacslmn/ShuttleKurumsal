@@ -1,85 +1,104 @@
-
-<!--=====================
-          Content
-======================-->
-<section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - July 28, 2014!</div>
-    <div class="container">
-        <div class="row">
-            <div class="grid_12">
-                <h3></h3>
-                <div class="map">
-                    <figure class="">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
-                    </figure>
-                </div>
-            </div>
-            
-            <div class="grid_5">
-                <h3 class="head__1">Adres:</h3>
-                <address class="text3">
-                    138 Atlantis Ln <br>Kingsport <br>Illinois121164
-                </address>
-            </div>
-            <div class="grid_4">
-                <h3 class="head__1">Telefon:</h3>
-                <div class="text3">
-                    +1 800 559 6580 <br>+1 504 889 9898
-                </div>
-            </div>
-            <div class="grid_3">
-                <h3 class="head__1">E-mail:</h3>
-                <div class="text3">
-                    <a href="#">mail@demolink.org</a><br><a href="#">Download</a>
-                </div>
-            </div>
-            <div class="grid_12" style="text-align:center">
-                <h3 class="head__1">Bize Ulaşın</h3>
-                <div class="fwn">
-                    <h5>Sorularınızı ve isteklerinizi bize yazın</h5>
-                </div>
-                <form id="contact-form">
-                    <div class="contact-form-loader"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
                     <fieldset>
-                        <label class="name">
-                            <input type="text" name="name" placeholder="Name:" value="" data-constraints="@Required @JustLetters"  />
-                            <span class="empty-message">*This field is required.</span>
-                            <span class="error-message">*This is not a valid name.</span>
-                        </label>
-                        <label class="email">
-                            <input type="text" name="email" placeholder="E-mail:" value="" data-constraints="@Required @Email" />
-                            <span class="empty-message">*This field is required.</span>
-                            <span class="error-message">*This is not a valid email.</span>
-                        </label>
-                        <label class="phone">
-                            <input type="text" name="phone" placeholder="Phone:" value="" data-constraints="@Required @JustNumbers" />
-                            <span class="empty-message">*This field is required.</span>
-                            <span class="error-message">*This is not a valid phone.</span>
-                        </label>
-                        <label class="message">
-                            <textarea name="message" placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-                            <span class="empty-message">*This field is required.</span>
-                            <span class="error-message">*The message is too short.</span>
-                        </label>
-                        <div class="clear"></div>
-                        <div>
-                            <a href="#" class="btn" data-type="submit">GÖNDER</a>
-                        </div>
-                    </fieldset> 
-                    <div class="modal fade response-message">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    You message has been sent! We will be in touch soon.
-                                </div>      
+                        <legend class="text-center header">Contact us</legend>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
                             </div>
                         </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div>
+                <div class="panel panel-default">
+                    <div class="text-center header">Our Office</div>
+                    <div class="panel-body text-center">
+                        <h4>Address</h4>
+                        <div>
+                        2217 Washington Blvd<br />
+                        Washington DC<br />
+                        #(703) 1234 1234<br />
+                        service@company.com<br />
+                        </div>
+                        <hr />
+                        <div id="map1" class="map">
+                        </div>
                     </div>
-                </form>   
+                </div>
             </div>
         </div>
     </div>
-</section>
+</div>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        function init_map1() {
+            var myLocation = new google.maps.LatLng(38.885516, -77.09327200000001);
+            var mapOptions = {
+                center: myLocation,
+                zoom: 16
+            };
+            var marker = new google.maps.Marker({
+                position: myLocation,
+                title: "Property Location"
+            });
+            var map = new google.maps.Map(document.getElementById("map1"),
+                mapOptions);
+            marker.setMap(map);
+        }
+        init_map1();
+    });
+</script>
+
+<style>
+    .map {
+        min-width: 300px;
+        min-height: 300px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        background-color: #F5F5F5;
+        color: #36A0FF;
+        height: 70px;
+        font-size: 27px;
+        padding: 10px;
+    }
+</style>
