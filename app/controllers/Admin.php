@@ -11,14 +11,10 @@ class Admin extends Controller {
     }
 
     public function home() {
-        if (session::get("login") == true) {
             $this->load->view("Template_BackEnd/header");
             $this->load->view("Template_BackEnd/left");
             $this->load->view("Template_BackEnd/home");
             $this->load->view("Template_BackEnd/footer");
-        } else {
-            $this->load->view("Entry/loginForm");
-        }
     }
 
     public function Profil() {
@@ -60,7 +56,6 @@ class Admin extends Controller {
     }
 
     public function ayarlar() {
-        if (session::get("login") == true) {
            $model = $this->load->model("Panel_Model");
             $ayararray = array();
             $ayarliste = $model->ayarselect();
@@ -69,9 +64,6 @@ class Admin extends Controller {
             $this->load->view("Template_BackEnd/left");
             $this->load->view("Template_BackEnd/ayarlar");
             $this->load->view("Template_BackEnd/footer");
-        } else {
-            $this->load->view("Entry/loginForm");
-        }
     }
 
 }
