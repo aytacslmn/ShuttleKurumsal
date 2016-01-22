@@ -28,7 +28,11 @@ class Panel_Model extends Model {
         $sql = "SELECT ad,cinsiyet,eposta,sifre,profil_resmi FROM uyeler WHERE eposta='$email' AND sifre='$sifre'";
         return $this->db->select($sql);
     }
-
+    
+   public function ayarselect($id) {
+        $sql = "SELECT site_baslik,site_aciklama,is_tel,site_keyw,site_mail,adres FROM ayarlar WHERE id=1";
+        return $this->db->select($sql);
+    }
 
 
 }

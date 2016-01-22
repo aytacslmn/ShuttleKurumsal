@@ -59,15 +59,15 @@ class Admin extends Controller {
         }
     }
 
-    public function genelayarlar() {
+    public function ayarlar() {
         if (session::get("login") == true) {
-            $model = $this->load->model("Panel_Model");
+           $model = $this->load->model("Panel_Model");
             $ayararray = array();
             $ayarliste = $model->ayarselect();
 
             $this->load->view("Template_BackEnd/header");
             $this->load->view("Template_BackEnd/left");
-            $this->load->view("Template_BackEnd/genelayarlar", $ayarliste);
+            $this->load->view("Template_BackEnd/ayarlar");
             $this->load->view("Template_BackEnd/footer");
         } else {
             $this->load->view("Entry/loginForm");
