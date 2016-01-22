@@ -23,12 +23,17 @@ define("SITE_BACK_ASSETS_PLUGINS_DATATABLES", "http://localhost/ShuttleKurumsal/
 define("SITE_BACK_ASSETS_JS", "http://localhost/ShuttleKurumsal/app/views/Template_BackEnd/assets/js");
 define("SITE_BACK_ASSETS_CSS", "http://localhost/ShuttleKurumsal/app/views/Template_BackEnd/assets/css");
 
+
 //site front end 
 define("SITE_FRONT_ASSETS", "http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets");
 define("SITE_FRONT_ASSETS_DISTCSS", "http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/css");
 define("SITE_FRONT_ASSETS_DISTJS", "http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/js");
-define("SITE_FRONT_ASSETS_BOOTSTRAPFONTS", "http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/fonts");
 define("SITE_FRONT_ASSETS_DISTIMG", "http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/images");
+define("SITE_FRONT_ASSETS_FONTAWESOMECSS", "http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/font-awesome/css");
+define("SITE_FRONT_ASSETS_BOOTSTRAP", "http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/bootstrap");
+define("SITE_FRONT_ASSETS_BOOTSTRAPCSS", "http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/bootstrap/css");
+define("SITE_FRONT_ASSETS_BOOTSTRAPJS", "http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/bootstrap/js");
+define("SITE_FRONT_ASSETS_BOOTSTRAPFONTS", "http://localhost/ShuttleKurumsal/app/views/Template_FrontEnd/assets/bootstrap/fonts");
 
 //login
 define("SITE_ENTRY_ASSETSCSS", "http://localhost/ShuttleKurumsal/app/views/Entry/assets/css");

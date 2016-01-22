@@ -47,9 +47,9 @@
                 </ul>
             </li>
             <li><a href="<?php echo SITE_URLA; ?>/GenelAyarlar"><i class="fa fa-cog"></i> <span>GENEL AYARLAR</span></a></li>
-            <div class="modal-footer">
+<!--            <div class="modal-footer">
                 <a href="<?php echo SITE_URL;?>/login/logout"><button type="button"  class="btn btn-warning" data-dismiss="modal">Çıkış Yap</button></a>>
-            </div>
+            </div>-->
          
         </ul>
 
