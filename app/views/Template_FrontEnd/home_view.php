@@ -229,17 +229,17 @@
                     <div class="media">
                         <div class="parrent pull-left">
                             <ul class="nav nav-tabs nav-stacked">
-                                <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Responsive Web Design</a></li>
-                                <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Premium Plugin Included</a></li>
-                                <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Predefine Layout</a></li>
-                                <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Our Philosopy</a></li>
-                                <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">What We Do?</a></li>
+                                <li class="active"><a href="#tab1" data-toggle="tab" class="analistic-01">Shuttle Operator Nedir?</a></li>
+                                <li class=""><a href="#tab2" data-toggle="tab" class="analistic-02">Tur Başlat Özelliği</a></li>
+                                <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Öğrenci Takip</a></li>
+                                <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Servis Yönetimi</a></li>
+                                <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">Detaylar</a></li>
                             </ul>
                         </div>
 
                         <div class="parrent media-body">
                             <div class="tab-content">
-                                <div class="tab-pane fade" id="tab1">
+                                <div class="tab-pane fade active in" id="tab1">
                                     <div class="media">
                                         <div class="pull-left">
                                             <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/tab2.png">
@@ -251,7 +251,7 @@
                                     </div>
                                 </div>
 
-                                <div class="tab-pane fade active in" id="tab2">
+                                <div class="tab-pane fade" id="tab2">
                                     <div class="media">
                                         <div class="pull-left">
                                             <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/tab1.png">

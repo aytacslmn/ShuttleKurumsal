@@ -1,3 +1,6 @@
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="<?php echo SITE_FRONT_ASSETS_DISTJS; ?>/iletisim.js" type="text/javascript"></script>
+<link href="<?php echo SITE_FRONT_ASSETS_DISTCSS; ?>/iletisim.css" rel="stylesheet" type="text/css"/>
 <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -50,13 +53,13 @@
                     <div class="panel-body text-center">
                         <h4>Address</h4>
                         <div>
-                        2217 Washington Blvd<br />
-                        Washington DC<br />
-                        #(703) 1234 1234<br />
-                        service@company.com<br />
+                            2217 Washington Blvd<br />
+                            Washington DC<br />
+                            #(703) 1234 1234<br />
+                            service@company.com<br />
                         </div>
                         <hr />
-                        <div id="map1" class="map">
+                        <div id="map1" class="map2">
                         </div>
                     </div>
                 </div>
@@ -64,41 +67,3 @@
         </div>
     </div>
 </div>
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-<script type="text/javascript">
-    jQuery(function ($) {
-        function init_map1() {
-            var myLocation = new google.maps.LatLng(38.885516, -77.09327200000001);
-            var mapOptions = {
-                center: myLocation,
-                zoom: 16
-            };
-            var marker = new google.maps.Marker({
-                position: myLocation,
-                title: "Property Location"
-            });
-            var map = new google.maps.Map(document.getElementById("map1"),
-                mapOptions);
-            marker.setMap(map);
-        }
-        init_map1();
-    });
-</script>
-
-<style>
-    .map {
-        min-width: 300px;
-        min-height: 300px;
-        width: 100%;
-        height: 100%;
-    }
-
-    .header {
-        background-color: #F5F5F5;
-        color: #36A0FF;
-        height: 70px;
-        font-size: 27px;
-        padding: 10px;
-    }
-</style>
