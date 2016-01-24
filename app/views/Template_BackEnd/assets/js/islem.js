@@ -56,310 +56,84 @@ $(document).on("click", "button#ayarDuzenle", function (e) {
     });
 });
 
-
-$(document).on('click', 'a#usil', function (e) {
+$(document).on('click', 'a#aaduzenle', function (e) {
     var id = $(this).attr("value");
-    reset();
-    alertify.confirm("Silmek İstiyormusunuz", function (e) {
-        if (e) {
-            $.ajax({
-                type: "post",
-                url: SITE_URL + "/Admin_Ajax",
-                cache: false,
-                dataType: "json",
-                data: {"id": id, "tip": "urunSil"},
-                success: function (cevap) {
-                    if (cevap.hata) {
-                        reset();
-                        alertify.alert(cevap.hata);
-                        return false;
-                    } else {
-                        $("tr#uruntable_" + id).remove();
-                        reset();
-                        alertify.success(cevap.result);
-                        return false;
-                    }
-                }
-            });
-        } else {
-            alertify.error("Silme İşlemi iptal edildi");
-        }
-    });
-});
-
-$(document).on("click", "button#profilSil", function (e) {
-    reset();
-    alertify.confirm("Silmek İstiyormusunuz", function (e) {
-        if (e) {
-            var id = $("#profilid").val();
-            $.ajax({
-                type: "post",
-                url: SITE_URL + "/Admin_Ajax",
-                cache: false,
-                dataType: "json",
-                data: {"yeniveri": id, "tip": "profilSil"},
-                success: function (cevap) {
-                    if (cevap.hata) {
-                        reset();
-                        alertify.alert(cevap.hata);
-                        return false;
-                    } else {
-                        reset();
-                        alertify.alert(cevap.result);
-                        return false;
-                    }
-                }
-            });
-        } else {
-            alertify.error("Silme İşlemi iptal edildi");
-        }
-    });
-});
-
-
-$(document).on('click', 'a#ksil', function (e) {
-    var id = $(this).attr("value");
-    reset();
-    alertify.confirm("Kategoriyi silmek İstiyormusunuz", function (e) {
-        if (e) {
-            $.ajax({
-                type: "post",
-                url: SITE_URL + "/Admin_Ajax",
-                cache: false,
-                dataType: "json",
-                data: {"id": id, "tip": "kategoriSil"},
-                success: function (cevap) {
-                    if (cevap.hata) {
-                        reset();
-                        alertify.alert(cevap.hata);
-                        return false;
-                    } else {
-                        $("tr#kattable_" + id).remove();
-                        reset();
-                        alertify.success(cevap.result);
-                        return false;
-                    }
-                }
-            });
-        } else {
-            alertify.error("Silme İşlemi iptal edildi");
-        }
-    });
-});
-
-$(document).on("click", "button#KategoriEkle", function (e) {
-    var kategoriAd = $("#kategoriAd").val();
-    var kicerik = $("#kicerik").val();
-    $.ajax({
-        type: "post",
-        url: SITE_URL + "/Admin_Ajax",
-        cache: false,
-        dataType: "json",
-        data: {"kategoriAd": kategoriAd, "kicerik": kicerik, "tip": "KategoriEkle"},
-        success: function (cevap) {
-            if (cevap.hata) {
-                reset();
-                alertify.alert(cevap.hata);
-                return false;
-            } else {
-                reset();
-                alertify.success(cevap.result);
-                return false;
-            }
-        }
-    });
-});
-
-$(document).on("click", "button#urunekle", function (e) {
-    var urunresim = $("#urunresim").val();
-    var urunaciklama = $("#urunaciklama").val();
-    var urunkategori = $("#urunkategori").val();
-    var urunfiyat = $("#urunfiyat").val();
-
-    $.ajax({
-        type: "post",
-        url: SITE_URL + "/Admin_Ajax",
-        cache: false,
-        dataType: "json",
-        data: {"urunresim": urunresim, "urunaciklama": urunaciklama, "urunkategori": urunkategori, "urunfiyat": urunfiyat, "tip": "urunekle"},
-        success: function (cevap) {
-            if (cevap.hata) {
-                reset();
-                alertify.alert(cevap.hata);
-                return false;
-            } else {
-                reset();
-                alertify.success(cevap.result);
-                return false;
-            }
-        }
-    });
-});
-
-
-$(document).on('click', 'a#uduzenle', function (e) {
-    var id = $(this).attr("value");
-    var aciklama = $(this).parent().parent().find('td:eq(0)').text();
-    var fiyat = $(this).parent().parent().find('td:eq(1)').text();
-    var kategoriID = $(this).parent().parent().find('td:eq(2)').attr("value");
-    var urun_resim = $("#urun_resim").val();
+    var alt_icerik_baslik = $(this).parent().parent().find('td:eq(0)').text();
+    var alt_icerik = $(this).parent().parent().find('td:eq(1)').text();
     $("#sakliID").val(id);
-    $("#durunAciklama").val(aciklama);
-    $("#durunFiyat").val(fiyat);
-
-    $("#urunresim").val(urun_resim);
-    $("#urunkategori").val(kategoriID);
-    $("#urunModal").modal('show');
+    $("#abaslik").val(alt_icerik_baslik);
+    $("#aicerik").val(alt_icerik);
+    $("#anasayfaModal").modal('show');
 });
 
 
-$(document).on('click', '#urunDuzenle', function (e) {
-    var formData = new FormData();
-    var aciklama = $("#durunAciklama").val();
-    var fiyat = $("#durunFiyat").val();
-    var kategoriID = $("#urunkategori").val();
-    var kategoriAdi = $("#urunkategori option[value=" + kategoriID + "]").text();
+$(document).on('click', '#aIcerikDuzenle', function (e) {
+   var abaslik = $("#abaslik").val();
+     var aicerik = $("#aicerik").val();
     var id = $("#sakliID").val();
-    formData.append('aciklama', aciklama);
-    formData.append('kategoriID', kategoriID);
-    formData.append('fiyat', fiyat);
-    formData.append('id', id);
-    formData.append('file', $("#resimGuncelle")[0].files[0]);
-    formData.append('tip', "urunDuzenle");
     $.ajax({
         type: "post",
         url: SITE_URL + "/Admin_Ajax",
         cache: false,
         dataType: "json",
-        data: formData,
-        async: false,
-        contentType: false,
-        enctype: 'multipart/form-data',
-        processData: false,
+        data: {"abaslik": abaslik, "aicerik": aicerik, "id": id, "tip": "aIcerikDuzenle"},
         success: function (cevap) {
             if (cevap.hata) {
                 reset();
                 alertify.alert(cevap.hata);
+                $("#anasayfaModal").modal('hide');
                 return false;
             } else {
-                $("tr#uruntable_" + id + " td:eq(0)").text(aciklama);
-                $("tr#uruntable_" + id + " td:eq(1)").text(fiyat);
-                $("tr#uruntable_" + id + " td:eq(2)").text(kategoriAdi);
+                $("tr#aatable_" + id + " td:eq(0)").text(abaslik);
+                $("tr#aatable_" + id + " td:eq(1)").text(aicerik);
                 reset();
                 alertify.success(cevap.result);
-                $("#urunModal").modal('hide');
-                return false;
-            }
-        }
-    });
-});
-$(document).on('click', '#urunEkle', function (e) {
-    $("#urunEkleModal").modal('show');
-});
-
-$(document).on('click', '#urunEklemeIslemi', function (e) {
-    var formData = new FormData();
-    var aciklama = $("#edurunAciklama").val();
-    var kategori = $("#edurunKategori").val();
-    var fiyat = $("#edurunFiyat").val();
-    formData.append('urunaciklama', aciklama);
-    formData.append('urunkategori', kategori);
-    formData.append('urunfiyat', fiyat);
-    formData.append('file', $("#fileInput")[0].files[0]);
-    formData.append('tip', "urunEkle");
-    $.ajax({
-        type: "post",
-        url: SITE_URL + "/Admin_Ajax",
-        cache: false,
-        dataType: "json",
-        data: formData,
-        async: false,
-        contentType: false,
-        enctype: 'multipart/form-data',
-        processData: false,
-        success: function (cevap) {
-            if (cevap.hata) {
-                reset();
-                alertify.alert(cevap.hata);
-                return false;
-            } else {
-                reset();
-                alertify.success(cevap.result);
-                $("#urunEkleModal").modal('hide');
+                $("#anasayfaModal").modal('hide');
                 return false;
             }
         }
     });
 });
 
-
-$(document).on('click', '#katEkle', function (e) {
-    $("#katEkleModal").modal('show');
-});
-$(document).on('click', '#katEklemeIslemi', function (e) {
-
-    var ad = $("#ekategoriadi").val();
-    var icerik = $("#ekategoriicerik").val();
-
-    $.ajax({
-        type: "post",
-        url: SITE_URL + "/Admin_Ajax",
-        cache: false,
-        dataType: "json",
-        data: {"ad": ad, "icerik": icerik, "tip": "katEkle"},
-        success: function (cevap) {
-            if (cevap.hata) {
-                reset();
-                alertify.alert(cevap.hata);
-                $("#katEkleModal").modal('hide');
-                return false;
-            } else {
-                reset();
-                alertify.success(cevap.result);
-                $("#katEkleModal").modal('hide');
-                return false;
-            }
-        }
-    });
-});
-$(document).on('click', 'a#duzenle', function (e) {
+$(document).on('click', 'a#aanaduzenle', function (e) {
     var id = $(this).attr("value");
-    var ad = $(this).parent().parent().find('td:eq(0)').text();
+    var icerik_baslik = $(this).parent().parent().find('td:eq(0)').text();
     var icerik = $(this).parent().parent().find('td:eq(1)').text();
-    $("#sakliID").val(id);
-    $("#dkategoriadi").val(ad);
-    $("#dkategoriicerik").val(icerik);
-    $("#myModal").modal('show');
+    $("#anasakliID").val(id);
+    $("#anabaslik").val(icerik_baslik);
+    $("#anaicerik").val(icerik);
+    $("#anasayfaAnaModal").modal('show');
 });
-$(document).on('click', '#katduzenle', function (e) {
 
-    var ad = $("#dkategoriadi").val();
-    var icerik = $("#dkategoriicerik").val();
 
-    var id = $("#sakliID").val();
+$(document).on('click', '#aAnaIcerikDuzenle', function (e) {
+   var abaslik = $("#anabaslik").val();
+     var aicerik = $("#anaicerik").val();
+    var id = $("#anasakliID").val();
     $.ajax({
         type: "post",
         url: SITE_URL + "/Admin_Ajax",
         cache: false,
         dataType: "json",
-        data: {"ad": ad, "icerik": icerik, "id": id, "tip": "katduzenle"},
+        data: {"abaslik": abaslik, "aicerik": aicerik, "id": id, "tip": "anaIcerikDuzenle"},
         success: function (cevap) {
             if (cevap.hata) {
                 reset();
                 alertify.alert(cevap.hata);
-                $("#myModal").modal('hide');
+                $("#anasayfaAnaModal").modal('hide');
                 return false;
             } else {
-                $("tr#kattable_" + id + " td:eq(0)").text(ad);
-                $("tr#kattable_" + id + " td:eq(1)").text(icerik);
+                $("tr#aanatable_" + id + " td:eq(0)").text(abaslik);
+                $("tr#aanatable_" + id + " td:eq(1)").text(aicerik);
                 reset();
                 alertify.success(cevap.result);
-                $("#myModal").modal('hide');
+                $("#anasayfaAnaModal").modal('hide');
                 return false;
             }
         }
     });
 });
+
 
 window.onload = function () {
     var fileInput = document.getElementById('fileInput');

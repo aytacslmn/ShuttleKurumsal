@@ -11,59 +11,60 @@ class Admin extends Controller {
     }
 
     public function home() {
-            $this->load->view("Template_BackEnd/header");
-            $this->load->view("Template_BackEnd/left");
-            $this->load->view("Template_BackEnd/home");
-            $this->load->view("Template_BackEnd/footer");
+        $this->load->view("Template_BackEnd/header");
+        $this->load->view("Template_BackEnd/left");
+        $this->load->view("Template_BackEnd/home");
+        $this->load->view("Template_BackEnd/footer");
     }
 
-    public function Profil() {
+    public function anasayfa() {
         $id = Session::get("ID");
         if ($id < 0) {
             header("Refresh:0; url=" . SITE_URL);
         } else {
+            $anasayfa = array();
+            $anaIcerik = array();
+            $altIcerik = array();
             $model = $this->load->model("Panel_Model");
-            $profilarray = array();
-            $profil = array();
-            $kategori = array();
-            //kategorileri listeleme
-            $profilliste = $model->profilselect($id);
-            foreach ($profilliste as $profillistee) {
-                $profil['ID'] = $id;
-                $profil['Ad'] = $profillistee['fwkullaniciAd'];
-                $profil['Adres'] = $profillistee['fwkullaniciAdres'];
-                $profil['Sehir'] = $profillistee['fwkullaniciSehir'];
-                $profil['Cinsiyet'] = $profillistee['fwkullaniciCinsiyet'];
-                $profil['Mail'] = $profillistee['fwkullaniciEmail'];
-            }
-
-            $kategoriliste = $model->kategoriselect();
-            $a = 0;
-            foreach ($kategoriliste as $kategorilistee) {
-                $kategori[$a]['KategoriID'] = $kategorilistee['ID'];
-                $kategori[$a]['Kategoriad'] = $kategorilistee['ad'];
-                $kategori[$a]['KategoriIcerik'] = $kategorilistee['icerik'];
+            $anasayfaAnaIcerik = $model->anasayfaIcerik();
+            $a  = 0;
+            foreach ($anasayfaAnaIcerik as $anasayfaAnaIcerikk) {
+                $anaIcerik[$a]["id"] = $anasayfaAnaIcerikk["id"];
+                $anaIcerik[$a]["baslik"] = $anasayfaAnaIcerikk["baslik"];
+                $anaIcerik[$a]["icerik"] = $anasayfaAnaIcerikk["icerik"];
                 $a++;
             }
-            $profilarray[0] = $profil;
-            $profilarray[1] = $kategori;
-
+            
+             $anasayfaltIcerik = $model->anasayfaAltIcerik();
+            $a  = 0;
+            foreach ($anasayfaltIcerik as $anasayfaltIcerikk) {
+                $altIcerik[$a]["id"] = $anasayfaltIcerikk["id"];
+                $altIcerik[$a]["alt_icerik_baslik"] = $anasayfaltIcerikk["alt_icerik_baslik"];
+                $altIcerik[$a]["alt_icerik"] = $anasayfaltIcerikk["alt_icerik"];
+                $a++;
+            }
+            $anasayfa[0] = $anaIcerik;
+            $anasayfa[1] = $altIcerik;
             $this->load->view("Template_BackEnd/header");
             $this->load->view("Template_BackEnd/left");
-            $this->load->view("Template_BackEnd/profil", $profilarray);
+            $this->load->view("Template_BackEnd/anasayfa", $anasayfa);
             $this->load->view("Template_BackEnd/footer");
         }
     }
 
     public function ayarlar() {
-           $model = $this->load->model("Panel_Model");
-            $ayararray = array();
+        $id = Session::get("ID");
+        if ($id < 0) {
+            header("Refresh:0; url=" . SITE_URL);
+        } else {
+            $model = $this->load->model("Panel_Model");
             $ayarliste = $model->ayarselect();
 
             $this->load->view("Template_BackEnd/header");
             $this->load->view("Template_BackEnd/left");
-            $this->load->view("Template_BackEnd/ayarlar",$ayarliste);
+            $this->load->view("Template_BackEnd/ayarlar", $ayarliste);
             $this->load->view("Template_BackEnd/footer");
+        }
     }
 
 }

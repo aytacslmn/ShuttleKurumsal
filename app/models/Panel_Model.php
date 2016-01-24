@@ -34,6 +34,21 @@ class Panel_Model extends Model {
         return $this->db->select($sql);
     }
     
+    public function anasayfaIcerik() {
+        $sql = "SELECT * FROM anasayfa_ana_icerik";
+        return $this->db->select($sql);
+    }
+     public function anasayfaAltIcerik() {
+        $sql = "SELECT * FROM anasayfa_alt_icerik";
+        return $this->db->select($sql);
+    }
+    public function anasayfaUpdate($data, $gelenid) {
+        return ($this->db->update("anasayfa_alt_icerik", $data, "id=$gelenid"));
+    }
+    public function anasayfaAnaIcerikUpdate($data, $gelenid) {
+        return ($this->db->update("anasayfa_ana_icerik", $data, "id=$gelenid"));
+    }
+    
     public function ayarupdate($dataAyar, $id) {
         return ($this->db->update("ayarlar", $dataAyar, "id=$id"));
     }

@@ -17,8 +17,8 @@
         <!-- search form -->
         <ul class="sidebar-menu">
             <li>
-                <a href="<?php echo SITE_URLA; ?>/Urunler">
-                    <i class="fa fa-dashboard"></i> <span>ÜRÜNLER</span> <i class=" pull-right"></i>
+                <a href="<?php echo SITE_URLA; ?>/anasayfa">
+                    <i class="fa fa-dashboard"></i> <span>Anasayfa</span> <i class=" pull-right"></i>
                 </a>
             </li>
             <li>
