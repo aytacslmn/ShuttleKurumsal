@@ -6,9 +6,9 @@
                 <p class="lead">10 yıllık deneyimi ile E-Ticaret Sistemleri , Kurumsal Web Tasarım ve İnternet Proje Danışmanlığı konularında Shuttle yanınızda. Hayallerinizi gerçeğe dönüştürmeniz için yapmanız gereken tek şey bize ulaşmanız. </p>
             </div><hr>
 
-            <div class="col-lg-12 col-sm-8 wow fadeInDown">
-                <p><h2>Servis Yönetim Sistemi</h2></p>
-                <h3>Shuttle Operator</h3> 
+            <div class="col-lg-12 col-lg-offset-0 col-sm-8 col-sm-offset-2 offset wow fadeInDown">
+                <p><h2 style="text-align: center">Servis Yönetim Sistemi</h2></p>
+                <h3 style="text-align: center">Shuttle Operator</h3> 
                 <div class="tab-wrap"> 
                     <div class="media">
                         <div class="parrent pull-left">
@@ -33,6 +33,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="tab-pane fade" id="tab2">
                                     <div class="media">
                                         <div class="pull-left">
@@ -55,27 +56,29 @@
                                 </div>
 
                                 <div class="tab-pane fade" id="tab5">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>                      
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterati<a href="http://www.shuttleoperator.com" target="_blank"> shuttleoperator.com</a></p>                      
                                 </div>
                             </div> <!--/.tab-content-->  
                         </div> <!--/.media-body--> 
                     </div> <!--/.media-->     
-                </div><!--/.tab-wrap--> <hr>             
+                </div><!--/.tab-wrap--><hr>             
             </div><!--/.col-sm-6-->
 
-            <div class="col-lg-12 col-sm-8 wow fadeInDown">
-                <h2>E-Ticaret Paketleri</h2> 
+            <div class="col-lg-12 col-lg-offset-0 col-sm-8 col-sm-offset-2 wow fadeInDown">
+                <p><h2 style="text-align: center">E-Ticaret Paketleri</h2></p>
+            <h3>Flora Çicek</h3>
                 <div class="tab2-wrap"> 
                     <div class="media">
                         <div class="parrent pull-left">
-                            <ul class="nav nav-tabs2 nav-stacked">
-                                <li class="active"><a href="#tab21" data-toggle="tab" class="analistic-01">Türkiye Flora Çicek</a></li>
+                            <ul class="nav nav-tabs2 nav-stacked2">
+                                <li class="active "><a href="#tab21" data-toggle="tab" class="analistic-01">Türkiye Flora Çicek</a></li>
                                 <li class=""><a href="#tab22" data-toggle="tab" class="analistic-01">Türkiye Flora Çicek</a></li>
                                 <li class=""><a href="#tab23" data-toggle="tab" class="analistic-01">Türkiye Flora Çicek</a></li>
                                 <li class=""><a href="#tab24" data-toggle="tab" class="analistic-01">Türkiye Flora Çicek</a></li>
                                 <li class=""><a href="#tab24" data-toggle="tab" class="analistic-01">Türkiye Flora Çicek</a></li>
                             </ul>
                         </div>
+
                         <div class="parrent media-body">
                             <div class="tab-content">
                                 <div class="tab-pane fade active in" id="tab21">
@@ -89,6 +92,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="tab-pane fade" id="tab22">
                                     <div class="media">
                                         <div class="pull-left">

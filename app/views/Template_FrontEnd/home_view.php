@@ -81,7 +81,7 @@
     <div class="container">
         <div class="center wow fadeInDown">
             <h2>Biz</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <p class="lead">Shuttle Yazılım olarak Türkiye'nin ihtiyacı olan inovasyon için durmaksızın çalışıyor ve üretiyoruz.Genç, dinamik... Ekibimiz ile  teknolojiyi yakından takip ediyor ve yazılımlarımızı son teknolojiyle geliştiriyoruz. Müşterilerimizin işlerine olan bağlılığından ilham alıyor ve onların ihtiyaçlarını baz alarak üretiyoruz.</p>
         </div>
 
         <div class="row">
@@ -181,14 +181,14 @@
                     </div>
                 </div>
             </div>  
-
+            
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
-                        <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services4.png">
+                        <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services5.png">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading">Danışmanlık</h3>
+                        <h3 class="media-heading">Yazılım Geliştirme</h3>
                         <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                     </div>
                 </div>
@@ -197,10 +197,10 @@
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
-                        <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services5.png">
+                        <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services4.png">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading">SEO Marketing</h3>
+                        <h3 class="media-heading">Yazılım Danışmanlığı</h3>
                         <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
                         <img class="img-responsive" src="<?php echo SITE_FRONT_ASSETS_DISTIMG; ?>/services/services6.png">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading">SEO Marketing</h3>
+                        <h3 class="media-heading">Eğitim</h3>
                         <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                     </div>
                 </div>
@@ -224,6 +224,7 @@
 <section id="content">
     <div class="container">
         <div class="row">
+            <h2>Shuttle Operator</h2>
             <div class="col-xs-12 col-sm-8 wow fadeInDown">
                 <div class="tab-wrap"> 
                     <div class="media">

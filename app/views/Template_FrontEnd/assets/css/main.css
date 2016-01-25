@@ -44,7 +44,7 @@ h4{
 }
 
 a {
-    color: #0095B6;
+    color: #009966;
     -webkit-transition: color 300ms, background-color 300ms;
     -moz-transition: color 300ms, background-color 300ms;
     -o-transition:  color 300ms, background-color 300ms;
@@ -182,7 +182,7 @@ body > section {
 }
 
 .top-bar {
-    padding: 10px 0;
+    padding: 2px 0;
     background: #F8F7F3;
     border-bottom: 1px dotted #0095B6;
     line-height: 28px;
@@ -305,7 +305,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #009933;
+    background-color:#0095B6;
     color: #fff;
 }
 
@@ -845,7 +845,7 @@ a.accordion-toggle  i{
 
 .nav-tabs>li{
     margin-bottom: 0px;
-    border-bottom: 1px solid #009933;
+    border-bottom: 1.5px solid #fff;
 }
 
 .nav-tabs{
@@ -901,12 +901,12 @@ a.accordion-toggle  i{
 
 .nav-tabs2>li{
     margin-bottom: 0px;
-    border-bottom: 1px solid #660066;
+    border-bottom: 1.5px solid #fff;
 }
 
 .nav-tabs2{
     border-bottom: transparent;
-    border-right: 1px solid #660066;
+    border-right: 1px solid #b51e91;
 }
 
 .nav-tabs2>li>a {
@@ -928,7 +928,7 @@ a.accordion-toggle  i{
 }
 
 .nav-tabs2>li>a:hover{
-    background: #660066;
+    background: #b51e91;
     color:#fff;
 }
 
@@ -937,7 +937,7 @@ a.accordion-toggle  i{
 .nav-tabs2>li.active>a:focus {
     border: 0;
     color:#fff;
-    background: #660066	;
+    background: #b51e91	;
     position: relative;
     padding: 13px 15px;
 }
@@ -948,7 +948,7 @@ a.accordion-toggle  i{
     width: auto;
     height: auto;
     border-style:solid;
-    border-color: transparent transparent transparent #660066;
+    border-color: transparent transparent transparent #b51e91;
     border-width: 25px 22px;
     right: -44px;
     top:0;
@@ -960,7 +960,7 @@ a.accordion-toggle  i{
 }
 
 .tab-wrap2{
-    border:2px solid #660066;
+    border:2px solid #b51e91;
     margin-bottom: 20px;
 }
 
@@ -977,12 +977,12 @@ a.accordion-toggle  i{
 }
 
 .tab2-wrap{
-    border:2px solid #660066;
+    border:2px solid #b51e91;
     margin-bottom: 50px;
 }
 
-.tab2-wrap2{
-    border:2px solid #660066;
+.tab2-wrap{
+    border:2px solid #b51e91;
     margin-bottom: 20px;
 }
 
@@ -1008,7 +1008,7 @@ a.accordion-toggle  i{
 }
 
 .testimonial-inner .pull-left{
-    border-right: 1px solid #660066;
+    border-right: 1px solid #b51e91;
     padding-right: 15px;
     position: relative;
 }
@@ -1603,6 +1603,7 @@ ul.social_icons li  a i{
     border-top: 5px solid #0095B6;
     height: 84px;
     margin-top: 110px;
+    border-top: 5px solid #0066CC;
 }
 
 .footer_left {
@@ -2604,9 +2605,6 @@ shortcodes page css
     display: inline-block;
     margin-left: 15px;
 }
-
-
-
 
 
 

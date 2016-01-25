@@ -66,6 +66,15 @@
     clear: both;
   }
 
+   .tab2-wrap-wrap .media .parrent.pull-left{
+    clear: both;
+    width: 100%;
+  }
+
+  .tab2-wrap-wrap .media .parrent.media-body{
+    clear: both;
+  }
+  
   #portfolio .row {
     margin-left: -10px;
     margin-right: -10px;
@@ -131,6 +140,17 @@
   }
 
   .tab-wrap .media .parrent.media-body, 
+  .media.accordion-inner .media-body{
+    clear: both;
+  }
+  
+    .tab2-wrap .media .parrent.pull-left, 
+  .media.accordion-inner .pull-left{
+    clear: both;
+    width: 100%;
+  }
+
+  .tab2-wrap .media .parrent.media-body, 
   .media.accordion-inner .media-body{
     clear: both;
   }
@@ -237,6 +257,15 @@
   }
 
   .tab-wrap .media .media-body{
+    clear: both;
+  }
+  
+    .tab2-wrap .media .pull-left{
+    clear: both;
+    width: 100%;
+  }
+
+  .tab2-wrap .media .media-body{
     clear: both;
   }
 
